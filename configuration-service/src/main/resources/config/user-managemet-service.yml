@@ -1,0 +1,15 @@
+server:
+  port: 8090
+spring:
+  application:
+    name: user-management-service
+
+# PostgreSQL database configuration for user data
+database:
+  url: jdbc:postgresql://localhost:5432/decentralised_peer2peer_learning_platform
+  username: harshit_mac_m3
+  password: 123456
+  driverClassName: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update

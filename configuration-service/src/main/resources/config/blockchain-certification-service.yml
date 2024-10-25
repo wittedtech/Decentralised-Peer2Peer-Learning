@@ -1,0 +1,7 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: blockchain-certification-service
+#Add other configuration like datasource.

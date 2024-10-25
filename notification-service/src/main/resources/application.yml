@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: notification-service  # Replace with the service’s name
+  config:
+    import: "configserver:http://localhost:8888"  # Point to config server
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/

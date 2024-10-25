@@ -1,0 +1,23 @@
+# authentication-authorization-service.yml in configuration-service
+server:
+  port: 8081
+
+spring:
+  application:
+    name: authentication-authorization-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/decentralised_peer2peer_learning_platform
+    username: harshit_mac_m3
+    password: 123456
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+#  instance:
+#    lease-renewal-interval-in-seconds: 10
+#    lease-expiration-duration-in-seconds: 30

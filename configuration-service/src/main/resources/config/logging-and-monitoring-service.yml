@@ -1,0 +1,7 @@
+server:
+  port: 8085
+
+spring:
+  application:
+    name: logging-and-monitoring-service
+#Add other configuration like datasource.

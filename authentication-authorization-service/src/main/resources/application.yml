@@ -1,0 +1,7 @@
+# application.yml in authentication-authorization-service
+spring:
+  application:
+    name: authentication-authorization-service
+  config:
+    import: "configserver:http://localhost:8888"  # Point to config server
+

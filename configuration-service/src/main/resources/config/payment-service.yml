@@ -1,0 +1,15 @@
+server:
+  port: 8088
+spring:
+  application:
+    name: payment-service
+
+# PostgreSQL database configuration for payment data
+database:
+  url: jdbc:postgresql://localhost:5432/payment_db
+  username: harshit_mac_m3
+  password: 123456
+  driverClassName: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
